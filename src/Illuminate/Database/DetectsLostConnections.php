@@ -75,6 +75,7 @@ trait DetectsLostConnections
             'timed out',
             // SQLSTATE[HY000]: General error: 1815 Internal error
             'Connection is closed',
+            'SQLSTATE[HY000]',
         ]);
     }
 }
